@@ -16,7 +16,7 @@ export default function App() {
       <br></br>
       <br></br>
       <br></br>
-      <p>{qrValue}</p>
+      {/* <p>{qrValue}</p> */}
       {qrValue && <QRCodeSVG value={qrValue} size="192" />}
       <br></br>
     </div>
